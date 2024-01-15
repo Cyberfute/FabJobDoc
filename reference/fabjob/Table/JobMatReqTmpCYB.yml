@@ -1,0 +1,150 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobMatReqTmpCYB
+alId: ID 50329
+baseKind: Table
+kind: Table
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: JobMatReqTmp
+  promoted: false
+- name: DataClassification
+  value: ToBeClassified
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Job_No#[20]
+  name: '"Job No."'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.No#[20]
+  name: '"No."'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Description[100]
+  name: Description
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Quantity[20]
+  name: Quantity
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Remaining_Qty#[20]
+  name: '"Remaining Qty."'
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Unit_Cost[20]
+  name: '"Unit Cost"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.DocumentNo[20]
+  name: DocumentNo
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.DocumentLineNo[20]
+  name: DocumentLineNo
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.QuantityLine[20]
+  name: QuantityLine
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.QtyReceived[20]
+  name: QtyReceived
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.QtyOutstanding[20]
+  name: QtyOutstanding
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.ExpectedReceiptDate
+  name: ExpectedReceiptDate
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.poStatus[20]
+  name: poStatus
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Unit_of_Measure[10]
+  name: '"Unit of Measure"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Unit_of_Measure_PO[10]
+  name: '"Unit of Measure PO"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Ligne
+  name: Ligne
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Job_Task_No#[20]
+  name: '"Job Task No."'
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Line_No#[20]
+  name: '"Line No."'
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.Quantity_Invoiced[20]
+  name: '"Quantity Invoiced"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::JobMatReqTmpCYB.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::JobMatReqTmpCYB
+summary: Table JobMatReqTmpCYB (ID 50329).
+uid: O:Table::JobMatReqTmpCYB
+name: JobMatReqTmpCYB

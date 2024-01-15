@@ -1,0 +1,67 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobMatReqCYB
+alId: ID 50328
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::JobMatReqTmpCYB
+  name: JobMatReqTmpCYB
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Articles requis au projet
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "50329"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::JobMatReqTmpCYB
+    name: JobMatReqTmpCYB
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+methods:
+- syntax:
+    content: procedure ShowPurchaseOrder()
+  summary: ShowPurchaseOrder.
+  uid: M:Page::JobMatReqCYB.ShowPurchaseOrder
+  name: ShowPurchaseOrder
+- syntax:
+    content: 'procedure Setup(Job: Code[20])'
+    parameters:
+    - id: Job
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  summary: Setup.
+  uid: M:Page::JobMatReqCYB.Setup(Code[20])
+  name: Setup
+commentId: O:Page::JobMatReqCYB
+summary: Page JobMatReqCYB (ID 50328).
+uid: O:Page::JobMatReqCYB
+name: JobMatReqCYB

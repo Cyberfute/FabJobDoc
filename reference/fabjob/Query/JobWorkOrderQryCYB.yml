@@ -1,0 +1,64 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobWorkOrderQryCYB
+alId: ID 50333
+baseKind: Query
+kind: Query
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: JobWorkOrderQryCyb
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+queryColumns:
+- dataItem: JobPlanningLine
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.JobNo
+  name: JobNo
+- dataItem: JobPlanningLine
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.JobTaskNo
+  name: JobTaskNo
+- dataItem: JobPlanningLine
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.No
+  name: "No"
+- dataItem: JobPlanningLine
+  columnType:
+    name: Text[100]
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.Description
+  name: Description
+- dataItem: JobPlanningLine
+  columnType:
+    name: Text[50]
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.Description2
+  name: Description2
+- dataItem: JobPlanningLine
+  columnType:
+    name: Code[50]
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.BarCodeNoCYB
+  name: BarCodeNoCYB
+- dataItem: JobPlanningLine
+  columnType:
+    name: '"Job Planning Line Type"'
+    isExternal: true
+  uid: C:Query::JobWorkOrderQryCYB.JobPlanningLine.Type
+  name: Type
+commentId: O:Query::JobWorkOrderQryCYB
+summary: Query JobWorkOrderQryCYB (ID 50333).
+uid: O:Query::JobWorkOrderQryCYB
+name: JobWorkOrderQryCYB

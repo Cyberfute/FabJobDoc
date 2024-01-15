@@ -1,0 +1,48 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobTaskExtCYB
+alId: ID 50319
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Task"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+methods:
+- syntax:
+    content: procedure modifyJob()
+  summary: modifyJob.
+  uid: M:TableExtension::JobTaskExtCYB.modifyJob
+  name: modifyJob
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobTaskExtCYB.DimCatCoutCYB[20]
+  name: DimCatCoutCYB
+  obsoletion:
+    state: removed
+    reason: Retiré de la table Job Task
+    version: ""
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobTaskExtCYB.LineTypeReportCYB[20]
+  name: LineTypeReportCYB
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::JobTaskExtCYB.CompleterCYB
+  name: CompleterCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobTaskExtCYB.TacheMachineCYB[20]
+  name: TacheMachineCYB
+commentId: O:TableExtension::JobTaskExtCYB
+summary: TableExtension JobTaskExt (ID 50319) extends Record Job Task.
+uid: O:TableExtension::JobTaskExtCYB
+name: JobTaskExtCYB

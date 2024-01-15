@@ -1,0 +1,14 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEventSubscribersCYB
+alId: ID 50331
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+commentId: O:Codeunit::JobEventSubscribersCYB
+summary: Codeunit JobCopyDevis (ID 50331).
+uid: O:Codeunit::JobEventSubscribersCYB
+name: JobEventSubscribersCYB

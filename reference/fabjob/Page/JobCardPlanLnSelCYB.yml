@@ -1,0 +1,39 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCardPlanLnSelCYB
+alId: ID 50314
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"Job Planning Line"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: JobCardPlanLinesSelection
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "1003"
+  promoted: true
+  xrefType:
+    name: '"Job Planning Line"'
+    isExternal: true
+- name: Editable
+  value: "False"
+  promoted: false
+- name: PopulateAllFields
+  value: "True"
+  promoted: false
+commentId: O:Page::JobCardPlanLnSelCYB
+summary: Page JobCardPlanLinesSelection (ID 50314).
+uid: O:Page::JobCardPlanLnSelCYB
+name: JobCardPlanLnSelCYB

@@ -1,0 +1,567 @@
+{
+  "source_base_path": "D:/OneDrive - Cyberfute/DEV/GitHub/Fabspec/FabJobDoc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Codeunit/JobEventSubscribersCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Codeunit/JobEventSubscribersCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Codeunit/JobLotEventSubscribersCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Codeunit/JobLotEventSubscribersCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Codeunit/JobUpgradeBarcodePlanLinesCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Codeunit/JobUpgradeBarcodePlanLinesCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Enum/JobCategoryCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Enum/JobCategoryCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Enum/JobEstPostLineTypeCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Enum/JobEstPostLineTypeCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Enum/JobModuleCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Enum/JobModuleCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Enum/JobTypeEnumCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Enum/JobTypeEnumCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Module/FabJob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Module/FabJob.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/fabjob/Obsoletion/obsolete_by_[Untagged].yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Obsoletion/obsolete_by_[Untagged].html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobBarCodeListCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobBarCodeListCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobCardEstimFactBoxCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobCardEstimFactBoxCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobCardEstimPlanLineCpyCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobCardEstimPlanLineCpyCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobCardPlanLnSelCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobCardPlanLnSelCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobCreateNewDlgCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobCreateNewDlgCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobEstPostDetailsListCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobEstPostDetailsListCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobEstPostingCardCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobEstPostingCardCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobEstPostingListCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobEstPostingListCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobMatReqCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobMatReqCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobPlanLinesQuickCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobPlanLinesQuickCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobPostEstimDlgCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobPostEstimDlgCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Page/JobTaskLineTypeCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Page/JobTaskLineTypeCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobCardExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobCardExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobItemListCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobItemListCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobItemTrackingCodeCardCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobItemTrackingCodeCardCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobListExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobListExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobPlanningLineExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobPlanningLineExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobPurchaseQuoteCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobPurchaseQuoteCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobTaskLnSFCyb.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobTaskLnSFCyb.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PageExtension/JobsSetupCardEtxCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PageExtension/JobsSetupCardEtxCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/PermissionSet/GeneratedPermission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/PermissionSet/GeneratedPermission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Query/JobEstFormQryCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Query/JobEstFormQryCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Query/JobWorkOrderQryCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Query/JobWorkOrderQryCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Report/JobEstFormRptCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Report/JobEstFormRptCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Report/JobWorkOrderRptCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Report/JobWorkOrderRptCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Report/JobWorkOrderRptGroupeCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Report/JobWorkOrderRptGroupeCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/FabBarreCodeCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/FabBarreCodeCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/FabspecJobSetupCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/FabspecJobSetupCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/JobEstPostCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/JobEstPostCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/JobEstPostPlLnCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/JobEstPostPlLnCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/JobMatReqTmpCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/JobMatReqTmpCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/JobTaskLineTypeReportCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/JobTaskLineTypeReportCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/Table/TempJobWorkOrderCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/Table/TempJobWorkOrderCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobCardTbExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobCardTbExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobItemTrackingCodeCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobItemTrackingCodeCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobJrnlLnExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobJrnlLnExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobLotNoInfoExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobLotNoInfoExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobPlngLnExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobPlngLnExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobPriceLineExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobPriceLineExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobPurchaseLineCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobPurchaseLineCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobTaskDimensionCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobTaskDimensionCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobTaskExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobTaskExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/fabjob/TableExtension/JobsSetupExtCYB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/TableExtension/JobsSetupExtCYB.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "reference/fabjob/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/fabjob/toc.html"
+        },
+        ".json": {
+          "relative_path": "reference/fabjob/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

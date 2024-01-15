@@ -1,0 +1,11 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::FabJob_obsolete_by_[Untagged]
+tag: '[Untagged]'
+groups:
+- uid: N:Module::FabJob_obsolete_by_[Untagged]#
+  groupName: ""
+  symbols:
+  - kind: Field
+    internalReference: F:TableExtension::JobTaskExtCYB.DimCatCoutCYB[20]
+    name: 'DimCatCoutCYB: Code[20]'
+    reason: Retiré de la table Job Task

@@ -1,0 +1,18 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobUpgradeBarcodePlanLinesCYB
+alId: ID 50337
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Subtype
+  value: Upgrade
+  promoted: false
+commentId: O:Codeunit::JobUpgradeBarcodePlanLinesCYB
+summary: Codeunit JobUpgradeBarcodePlanLinesCYB (ID 50337).
+uid: O:Codeunit::JobUpgradeBarcodePlanLinesCYB
+name: JobUpgradeBarcodePlanLinesCYB

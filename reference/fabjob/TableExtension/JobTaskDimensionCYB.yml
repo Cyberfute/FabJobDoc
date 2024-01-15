@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobTaskDimensionCYB
+alId: ID 50321
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Task Dimension"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::JobTaskDimensionCYB
+summary: TableExtension JobTaskDimension (ID 50320) extends Record Job Task Dimension.
+uid: O:TableExtension::JobTaskDimensionCYB
+name: JobTaskDimensionCYB

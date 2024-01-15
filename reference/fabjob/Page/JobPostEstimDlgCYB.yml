@@ -1,0 +1,56 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobPostEstimDlgCYB
+alId: ID 50310
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Report estimé vers projet
+  promoted: false
+- name: PageType
+  value: StandardDialog
+  promoted: true
+methods:
+- syntax:
+    content: 'procedure setup(_estime: Code[20], _projet: Code[20], _version: Text[5])'
+    parameters:
+    - id: _estime
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: _projet
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: _version
+      description: int.
+      parameterType:
+        name: Text[5]
+        isExternal: true
+  summary: setup.
+  uid: M:Page::JobPostEstimDlgCYB.setup(Code[20],Code[20],Text[5])
+  name: setup
+- syntax:
+    content: 'procedure GetRaison(): Text[100]'
+    return:
+      description: Return value of type Text[100].
+      returnType:
+        name: Text[100]
+        isExternal: true
+  summary: GetRaison
+  uid: M:Page::JobPostEstimDlgCYB.GetRaison:Text[100]
+  name: GetRaison
+commentId: O:Page::JobPostEstimDlgCYB
+summary: Page JobPostEstimDlgCYB (ID 50310).
+uid: O:Page::JobPostEstimDlgCYB
+name: JobPostEstimDlgCYB

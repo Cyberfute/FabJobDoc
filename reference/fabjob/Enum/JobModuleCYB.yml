@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobModuleCYB
+alId: ID 50336
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::JobModuleCYB.JobTask
+  name: JobTask
+- uid: E:Enum::JobModuleCYB._JobInvetory
+  name: '" JobInvetory"'
+commentId: O:Enum::JobModuleCYB
+summary: Enum JobModuleCYB (ID 50336).
+uid: O:Enum::JobModuleCYB
+name: JobModuleCYB

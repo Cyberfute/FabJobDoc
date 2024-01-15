@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEstPostingListCYB
+alId: ID 50313
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::JobEstPostCYB
+  name: JobEstPostCYB
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Report estimé-projet
+  promoted: false
+- name: AdditionalSearchTerms
+  value: estimé
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "50311"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::JobEstPostCYB
+    name: JobEstPostCYB
+    isExternal: false
+- name: Editable
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+commentId: O:Page::JobEstPostingListCYB
+summary: Page JobEstPostingCard (ID 50312).
+uid: O:Page::JobEstPostingListCYB
+name: JobEstPostingListCYB

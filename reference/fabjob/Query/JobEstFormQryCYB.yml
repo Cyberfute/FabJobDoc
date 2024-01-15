@@ -1,0 +1,213 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEstFormQryCYB
+alId: ID 50324
+baseKind: Query
+kind: Query
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Query](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-query-object)'
+objectProperties:
+- name: Caption
+  value: Job Estimation Form Query
+  promoted: false
+- name: QueryType
+  value: Normal
+  promoted: false
+- name: OrderBy
+  value: ascending(No), ascending(Job_Task_No_), ascending(LineNo_JobPlanningLine)
+  promoted: false
+queryColumns:
+- dataItem: job
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.No
+  name: "No"
+- dataItem: job
+  columnType:
+    name: Text[100]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.BilltoName
+  name: BilltoName
+- dataItem: job
+  columnType:
+    name: Text[100]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Description
+  name: Description
+- dataItem: job
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.BilltoCustomerNo
+  name: BilltoCustomerNo
+- dataItem: job
+  columnType:
+    name: DateTime
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.SystemCreatedAt
+  name: SystemCreatedAt
+- dataItem: job
+  columnType:
+    name: Guid
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.SystemCreatedBy
+  name: SystemCreatedBy
+- dataItem: job
+  columnType:
+    name: DateTime
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.SystemModifiedAt
+  name: SystemModifiedAt
+- dataItem: job
+  columnType:
+    name: Guid
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.SystemModifiedBy
+  name: SystemModifiedBy
+- dataItem: job
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.EstimRefCYB
+  name: EstimRefCYB
+- dataItem: job
+  columnType:
+    name: Code[50]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.ProjectManager
+  name: ProjectManager
+- dataItem: job
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.WeightCYB
+  name: WeightCYB
+- dataItem: job
+  columnType:
+    name: Text[35]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.YourReference
+  name: YourReference
+- dataItem: job
+  columnType:
+    name: Date
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.CreationDate
+  name: CreationDate
+- dataItem: job
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.VenteRelleCYB
+  name: VenteRelleCYB
+- dataItem: job
+  columnType:
+    name: Integer
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.VersionReporteeCYB
+  name: VersionReporteeCYB
+- dataItem: job
+  columnType:
+    name: DateTime
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.VersionReportDateCYB
+  name: VersionReportDateCYB
+- dataItem: job
+  columnType:
+    internalReference: O:Enum::JobTypeEnumCYB
+    name: JobTypeEnumCYB
+    isExternal: false
+  uid: C:Query::JobEstFormQryCYB.job.JobTypeCYB
+  name: JobTypeCYB
+- dataItem: job
+  columnType:
+    internalReference: O:Enum::JobCategoryCYB
+    name: JobCategoryCYB
+    isExternal: false
+  uid: C:Query::JobEstFormQryCYB.job.JobCategoryCYB
+  name: JobCategoryCYB
+- dataItem: job
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.ProjetReportCYB
+  name: ProjetReportCYB
+- dataItem: Job_Task
+  columnType:
+    name: Code[20]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Task_No_
+  name: Job_Task_No_
+- dataItem: Job_Task
+  columnType:
+    name: Text[100]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Task_Description
+  name: Job_Task_Description
+- dataItem: Job_Task
+  columnType:
+    name: '"Job Task Type"'
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Task_Type
+  name: Job_Task_Type
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Integer
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.LineNo_JobPlanningLine
+  name: LineNo_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Text[100]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.Description_JobPlanningLine
+  name: Description_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.Quantity_JobPlanningLine
+  name: Quantity_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.TotalCostLCY_JobPlanningLine
+  name: TotalCostLCY_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.UnitPriceLCY_JobPlanningLine
+  name: UnitPriceLCY_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.UnitCostLCY_JobPlanningLine
+  name: UnitCostLCY_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Decimal
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.TotalPriceLCY_JobPlanningLine
+  name: TotalPriceLCY_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: Code[10]
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.UnitofMeasureCode_JobPlanningLine
+  name: UnitofMeasureCode_JobPlanningLine
+- dataItem: Job_Planning_Line
+  columnType:
+    name: '"Job Planning Line Type"'
+    isExternal: true
+  uid: C:Query::JobEstFormQryCYB.job.Job_Task.Job_Planning_Line.Type_JobPlanningLine
+  name: Type_JobPlanningLine
+commentId: O:Query::JobEstFormQryCYB
+summary: Query JobEstForm (ID 50324).
+uid: O:Query::JobEstFormQryCYB
+name: JobEstFormQryCYB

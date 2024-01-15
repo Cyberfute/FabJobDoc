@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCategoryCYB
+alId: ID 50309
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::JobCategoryCYB.Empty
+  name: Empty
+- uid: E:Enum::JobCategoryCYB.Administratif
+  name: Administratif
+- uid: E:Enum::JobCategoryCYB.Direct
+  name: Direct
+- uid: E:Enum::JobCategoryCYB.Indirect
+  name: Indirect
+commentId: O:Enum::JobCategoryCYB
+summary: Enum JobCategoryCYB (ID 50309).
+uid: O:Enum::JobCategoryCYB
+name: JobCategoryCYB

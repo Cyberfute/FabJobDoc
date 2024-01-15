@@ -1,0 +1,18 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: GeneratedPermission
+alId: ID 50328
+baseKind: PermissionSet
+kind: PermissionSet
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Permission Set](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-object)'
+objectProperties:
+- name: Assignable
+  value: "True"
+  promoted: false
+commentId: O:PermissionSet::GeneratedPermission
+summary: Unknown GeneratedPermission (ID 50328).
+uid: O:PermissionSet::GeneratedPermission
+name: GeneratedPermission

@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobTaskLineTypeCYB
+alId: ID 50323
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::JobTaskLineTypeReportCYB
+  name: JobTaskLineTypeReportCYB
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Type de ligne de rapport de tâche
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "50322"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::JobTaskLineTypeReportCYB
+    name: JobTaskLineTypeReportCYB
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::JobTaskLineTypeCYB
+summary: Page JobTaskLineType (ID 50323).
+uid: O:Page::JobTaskLineTypeCYB
+name: JobTaskLineTypeCYB

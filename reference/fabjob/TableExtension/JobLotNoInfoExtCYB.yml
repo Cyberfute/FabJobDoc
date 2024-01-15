@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobLotNoInfoExtCYB
+alId: ID 50318
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Lot No. Information"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::JobLotNoInfoExtCYB
+summary: TableExtension LotNoInfoExtCYB (ID 50318) extends Record Lot No. Information.
+uid: O:TableExtension::JobLotNoInfoExtCYB
+name: JobLotNoInfoExtCYB

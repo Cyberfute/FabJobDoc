@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: FabJob by Cyberfuté (2.2.0.2)
+baseKind: Module
+kind: Module
+objectProperties:
+- name: Version
+  value: 2.2.0.2
+  promoted: false
+- name: Publisher
+  value: Cyberfuté
+  promoted: false
+- name: Brief
+  value: Personnalisation du Module Projet Fabspec
+  promoted: false
+summary: Personnalisation du module Projet pour Fabspec
+uid: N:Module::FabJob
+name: FabJob

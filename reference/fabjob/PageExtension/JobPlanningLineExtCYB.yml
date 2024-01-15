@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobPlanningLineExtCYB
+alId: ID 50300
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Planning Lines"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::JobPlanningLineExtCYB
+summary: PageExtension JobPlanningLineExtCYB (ID 50300) extends Record Job Planning Lines.
+uid: O:PageExtension::JobPlanningLineExtCYB
+name: JobPlanningLineExtCYB

@@ -1,0 +1,66 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: FabBarreCodeCYB
+alId: ID 50335
+baseKind: Table
+kind: Table
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: DataClassification
+  value: ToBeClassified
+  promoted: false
+- name: Caption
+  value: Fabspec Barre Codes
+  promoted: false
+- name: DataCaptionFields
+  value: 1,2
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.BarreCodeNo[20]
+  name: BarreCodeNo
+- type:
+    internalReference: O:Enum::JobModuleCYB
+    name: JobModuleCYB
+    isExternal: false
+  uid: F:Table::FabBarreCodeCYB.Module
+  name: Module
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::FabBarreCodeCYB.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::FabBarreCodeCYB
+summary: Table FabBarreCodeCYB (ID 50335).
+uid: O:Table::FabBarreCodeCYB
+name: FabBarreCodeCYB

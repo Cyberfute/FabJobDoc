@@ -1,0 +1,124 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCreateNewDlgCYB
+alId: ID 50305
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Créer un nouveau projet
+  promoted: false
+- name: PageType
+  value: StandardDialog
+  promoted: true
+methods:
+- syntax:
+    content: 'procedure setup(_source: Code[20], _customer: Code[20], _descriptin: Text[100], _sourceType: Enum JobTypeEnumCYB)'
+    parameters:
+    - id: _source
+      description: Text.
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: _customer
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: _descriptin
+      description: Text[100].
+      parameterType:
+        name: Text[100]
+        isExternal: true
+    - id: _sourceType
+      description: enum JobTypeEnumCYB.
+      parameterType:
+        internalReference: O:Enum::JobTypeEnumCYB
+        name: JobTypeEnumCYB
+        isExternal: false
+  summary: setup.
+  uid: M:Page::JobCreateNewDlgCYB.setup(Code[20],Code[20],Text[100],Enum::JobTypeEnumCYB)
+  name: setup
+- syntax:
+    content: 'procedure GetJobCategory(): Enum JobCategoryCYB'
+    return:
+      description: Return value of type enum JobCategoryCYB.
+      returnType:
+        internalReference: O:Enum::JobCategoryCYB
+        name: JobCategoryCYB
+        isExternal: false
+  summary: GetJobCategory.
+  uid: M:Page::JobCreateNewDlgCYB.GetJobCategory:Enum::JobCategoryCYB
+  name: GetJobCategory
+- syntax:
+    content: 'procedure GetJobType(): Enum JobTypeEnumCYB'
+    return:
+      description: Return value of type enum JobTypeEnumCYB.
+      returnType:
+        internalReference: O:Enum::JobTypeEnumCYB
+        name: JobTypeEnumCYB
+        isExternal: false
+  summary: GetJobType.
+  uid: M:Page::JobCreateNewDlgCYB.GetJobType:Enum::JobTypeEnumCYB
+  name: GetJobType
+- syntax:
+    content: 'procedure GetP(): Code[20]'
+    return:
+      description: Return value of type Text.
+      returnType:
+        name: Code[20]
+        isExternal: true
+  summary: GetP.
+  uid: M:Page::JobCreateNewDlgCYB.GetP:Code[20]
+  name: GetP
+- syntax:
+    content: 'procedure GetCustomer(): Code[20]'
+    return:
+      description: Return value of type Code[20].
+      returnType:
+        name: Code[20]
+        isExternal: true
+  summary: GetCustomer.
+  uid: M:Page::JobCreateNewDlgCYB.GetCustomer:Code[20]
+  name: GetCustomer
+- syntax:
+    content: 'procedure GetstartDate(): Date'
+    return:
+      description: Return value of type Date.
+      returnType:
+        name: Date
+        isExternal: true
+  summary: GetstartDate.
+  uid: M:Page::JobCreateNewDlgCYB.GetstartDate:Date
+  name: GetstartDate
+- syntax:
+    content: 'procedure GetendDate(): Date'
+    return:
+      description: Return value of type Date.
+      returnType:
+        name: Date
+        isExternal: true
+  summary: GetendDate.
+  uid: M:Page::JobCreateNewDlgCYB.GetendDate:Date
+  name: GetendDate
+- syntax:
+    content: 'procedure GetDescription(): Text[100]'
+    return:
+      description: Return value of type Text[100].
+      returnType:
+        name: Text[100]
+        isExternal: true
+  summary: GetDescription.
+  uid: M:Page::JobCreateNewDlgCYB.GetDescription:Text[100]
+  name: GetDescription
+commentId: O:Page::JobCreateNewDlgCYB
+summary: Page JobCreateNew (ID 50305).
+uid: O:Page::JobCreateNewDlgCYB
+name: JobCreateNewDlgCYB

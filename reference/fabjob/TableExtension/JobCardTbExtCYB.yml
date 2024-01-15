@@ -1,0 +1,85 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCardTbExtCYB
+alId: ID 50304
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: Job
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    internalReference: O:Enum::JobTypeEnumCYB
+    name: JobTypeEnumCYB
+    isExternal: false
+  uid: F:TableExtension::JobCardTbExtCYB.JobTypeCYB
+  name: JobTypeCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.EstimRefCYB[20]
+  name: EstimRefCYB
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.WeightCYB
+  name: WeightCYB
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.VenteRelleCYB
+  name: VenteRelleCYB
+- type:
+    internalReference: O:Enum::JobCategoryCYB
+    name: JobCategoryCYB
+    isExternal: false
+  uid: F:TableExtension::JobCardTbExtCYB.JobCategoryCYB
+  name: JobCategoryCYB
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.VersionReporteeCYB
+  name: VersionReporteeCYB
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.VersionReportDateCYB
+  name: VersionReportDateCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.ProjetReportCYB[20]
+  name: ProjetReportCYB
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.MargeProfitCYB
+  name: MargeProfitCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.TarifProjetCYB[20]
+  name: TarifProjetCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.ProjetRefCYB[20]
+  name: ProjetRefCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.ModelRefCYB[20]
+  name: ModelRefCYB
+- type:
+    name: Date
+    isExternal: true
+  uid: F:TableExtension::JobCardTbExtCYB.DeliveryDateCYB
+  name: DeliveryDateCYB
+commentId: O:TableExtension::JobCardTbExtCYB
+summary: TableExtension JobCardTbExtCYB (ID 50304) extends Record JOB.
+uid: O:TableExtension::JobCardTbExtCYB
+name: JobCardTbExtCYB

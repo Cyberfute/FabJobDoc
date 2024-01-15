@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobTypeEnumCYB
+alId: ID 50306
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::JobTypeEnumCYB.Empty
+  name: Empty
+- uid: E:Enum::JobTypeEnumCYB.Estime
+  name: Estime
+- uid: E:Enum::JobTypeEnumCYB.Projet
+  name: Projet
+- uid: E:Enum::JobTypeEnumCYB.Modele
+  name: Modele
+commentId: O:Enum::JobTypeEnumCYB
+summary: Enum JobType (ID 50306).
+uid: O:Enum::JobTypeEnumCYB
+name: JobTypeEnumCYB

@@ -1,0 +1,62 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCardEstimPlanLineCpyCYB
+alId: ID 50316
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Job
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Copie les articles du projets
+  promoted: false
+- name: PageType
+  value: Worksheet
+  promoted: true
+- name: SourceTable
+  value: "167"
+  promoted: true
+  xrefType:
+    name: Job
+    isExternal: true
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+methods:
+- syntax:
+    content: procedure copieJobArticles()
+  summary: copieJobArticles.
+  uid: M:Page::JobCardEstimPlanLineCpyCYB.copieJobArticles
+  name: copieJobArticles
+- syntax:
+    content: 'procedure setRecRef(parPurchaseHeader: Record "Purchase Header")'
+    parameters:
+    - id: parPurchaseHeader
+      description: Record "Purchase Header".
+      parameterType:
+        name: Record "Purchase Header"
+        isExternal: true
+  summary: setRecRef.
+  uid: M:Page::JobCardEstimPlanLineCpyCYB.setRecRef(Purchase_Header)
+  name: setRecRef
+commentId: O:Page::JobCardEstimPlanLineCpyCYB
+summary: Page JobCardEstimPlanLineCpy (ID 50316).
+uid: O:Page::JobCardEstimPlanLineCpyCYB
+name: JobCardEstimPlanLineCpyCYB

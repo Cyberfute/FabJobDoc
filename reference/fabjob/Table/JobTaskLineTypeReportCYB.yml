@@ -1,0 +1,62 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobTaskLineTypeReportCYB
+alId: ID 50322
+baseKind: Table
+kind: Table
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: JobTaskLineType
+  promoted: false
+- name: DataClassification
+  value: ToBeClassified
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.LineTypeReport[20]
+  name: LineTypeReport
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.Description[100]
+  name: Description
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::JobTaskLineTypeReportCYB.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::JobTaskLineTypeReportCYB
+summary: Table JobTaskLineType (ID 50322).
+uid: O:Table::JobTaskLineTypeReportCYB
+name: JobTaskLineTypeReportCYB

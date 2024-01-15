@@ -1,0 +1,51 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobWorkOrderRptGroupeCYB
+alId: ID 50339
+baseKind: Report
+kind: Report
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: UsageCategory
+  value: Documents
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Bon de travail avec Groupes
+  promoted: false
+- name: RDLCLayout
+  value: src\RDLC\JobWorkOrderGroupesRptCYB.RDLC
+  promoted: false
+- name: UsageCategory
+  value: Documents
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Bon de travail avec Groupes
+  promoted: false
+- name: RDLCLayout
+  value: src\RDLC\JobWorkOrderGroupesRptCYB.RDLC
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure setup(_JobNoCode: Code[20])'
+    parameters:
+    - id: _JobNoCode
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  summary: setup.
+  uid: M:Report::JobWorkOrderRptGroupeCYB.setup(Code[20])
+  name: setup
+commentId: O:Report::JobWorkOrderRptGroupeCYB
+summary: Report JobWorkOrderRptGroupeCYB (ID 50339).
+uid: O:Report::JobWorkOrderRptGroupeCYB
+name: JobWorkOrderRptGroupeCYB

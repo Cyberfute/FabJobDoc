@@ -1,0 +1,36 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobLotEventSubscribersCYB
+alId: ID 50301
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+methods:
+- syntax:
+    content: 'procedure CreateLotNoInformation(TrackingSpecification: Record "Tracking Specification", CreateBlockedLotInfo: Boolean)'
+    parameters:
+    - id: TrackingSpecification
+      description: Record "Tracking Specification".
+      parameterType:
+        name: Record "Tracking Specification"
+        isExternal: true
+    - id: CreateBlockedLotInfo
+      description: Boolean.
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    CreateLotNoInformation.
+
+    Création automatique du lot No. Information.
+
+    Selon les paramètres de l'Item Tracking Code.
+  uid: M:Codeunit::JobLotEventSubscribersCYB.CreateLotNoInformation(Tracking_Specification,Boolean)
+  name: CreateLotNoInformation
+commentId: O:Codeunit::JobLotEventSubscribersCYB
+summary: Codeunit JobLotEventSubscribersCYB (ID 50301).
+uid: O:Codeunit::JobLotEventSubscribersCYB
+name: JobLotEventSubscribersCYB

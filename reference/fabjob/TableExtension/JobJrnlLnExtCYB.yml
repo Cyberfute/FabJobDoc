@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobJrnlLnExtCYB
+alId: ID 50301
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Journal Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+methods:
+- syntax:
+    content: 'procedure ValidateJobPlanningLine(JobJournalLine: Record "Job Journal Line")'
+    parameters:
+    - id: JobJournalLine
+      description: Record "Job Journal Line".
+      parameterType:
+        name: Record "Job Journal Line"
+        isExternal: true
+  summary: ValidateJobPlanningLine.
+  uid: M:TableExtension::JobJrnlLnExtCYB.ValidateJobPlanningLine(Job_Journal_Line)
+  name: ValidateJobPlanningLine
+commentId: O:TableExtension::JobJrnlLnExtCYB
+summary: TableExtension JobJournalLineExtCYB (ID 50301) extends Record Job Journal Line.
+uid: O:TableExtension::JobJrnlLnExtCYB
+name: JobJrnlLnExtCYB

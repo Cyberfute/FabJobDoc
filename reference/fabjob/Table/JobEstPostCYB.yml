@@ -1,0 +1,77 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEstPostCYB
+alId: ID 50311
+baseKind: Table
+kind: Table
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Job Estime Report
+  promoted: false
+- name: DataCaptionFields
+  value: 1,3,5
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.Estime[20]
+  name: Estime
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.Projet[20]
+  name: Projet
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.ReportNo
+  name: ReportNo
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.DateReport
+  name: DateReport
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.Description[100]
+  name: Description
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::JobEstPostCYB.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::JobEstPostCYB
+summary: Table JobEstPosting (ID 50311).
+uid: O:Table::JobEstPostCYB
+name: JobEstPostCYB

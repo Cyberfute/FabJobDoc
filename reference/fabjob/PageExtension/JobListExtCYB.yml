@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobListExtCYB
+alId: ID 50308
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job List"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::JobListExtCYB
+summary: PageExtension JobListExt (ID 50308) extends Record Job List.
+uid: O:PageExtension::JobListExtCYB
+name: JobListExtCYB

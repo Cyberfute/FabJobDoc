@@ -1,0 +1,244 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCardExtCYB
+alId: ID 50303
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Card"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+methods:
+- syntax:
+    content: 'procedure postEstime2Projet(srceEtime: Code[20], Raison: Text[100], versionReport: Integer)'
+    parameters:
+    - id: srceEtime
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: Raison
+      description: Text[100].
+      parameterType:
+        name: Text[100]
+        isExternal: true
+    - id: versionReport
+      description: Integer.
+      parameterType:
+        name: Integer
+        isExternal: true
+  summary: postEstime2Projet.
+  uid: M:PageExtension::JobCardExtCYB.postEstime2Projet(Code[20],Text[100],Integer)
+  name: postEstime2Projet
+- syntax:
+    content: 'procedure ShowDetailsEstReport(): Record JobEstPostCYB'
+    return:
+      returnType:
+        name: Record JobEstPostCYB
+        isExternal: true
+  summary: ShowDetailsEstReport.
+  uid: M:PageExtension::JobCardExtCYB.ShowDetailsEstReport:JobEstPostCYB
+  name: ShowDetailsEstReport
+- syntax:
+    content: 'procedure postPlanningLines(srceEtime: Code[20], destProjet: Code[20], Raison: Text[100], versionReport: Integer)'
+    parameters:
+    - id: srceEtime
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: destProjet
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: Raison
+      description: Text[100].
+      parameterType:
+        name: Text[100]
+        isExternal: true
+    - id: versionReport
+      description: Integer.
+      parameterType:
+        name: Integer
+        isExternal: true
+  summary: postPlanningLines.
+  uid: M:PageExtension::JobCardExtCYB.postPlanningLines(Code[20],Code[20],Text[100],Integer)
+  name: postPlanningLines
+- syntax:
+    content: 'procedure CreateNewJob(EstimeJob: Record Job, destProj: Code[20], customer: Code[20], startDate: Date, endDate: Date, var NewJob: Record Job, JobTypeEnum: Enum JobTypeEnumCYB, JobCategoryEnum: Enum JobCategoryCYB, Description: Text[100]): Boolean'
+    parameters:
+    - id: EstimeJob
+      description: Record Job.
+      parameterType:
+        name: Record Job
+        isExternal: true
+    - id: destProj
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: customer
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: startDate
+      description: Date.
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: endDate
+      description: Date.
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: NewJob
+      description: VAR Record Job.
+      parameterType:
+        name: Record Job
+        isExternal: true
+    - id: JobTypeEnum
+      description: enum JobTypeEnumCYB.
+      parameterType:
+        internalReference: O:Enum::JobTypeEnumCYB
+        name: JobTypeEnumCYB
+        isExternal: false
+    - id: JobCategoryEnum
+      description: enum JobCategoryCYB.
+      parameterType:
+        internalReference: O:Enum::JobCategoryCYB
+        name: JobCategoryCYB
+        isExternal: false
+    - id: Description
+      description: Text[100].
+      parameterType:
+        name: Text[100]
+        isExternal: true
+    return:
+      description: Return variable ReturnValue of type Boolean.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: NewJob.
+  uid: M:PageExtension::JobCardExtCYB.CreateNewJob(Job,Code[20],Code[20],Date,Date,Job@,Enum::JobTypeEnumCYB,Enum::JobCategoryCYB,Text[100]):Boolean
+  name: CreateNewJob
+- syntax:
+    content: 'procedure createJobPlanLine(srceProj: Code[20], newProj: Code[20], srceJobTypeEnum: Enum JobTypeEnumCYB, JobTypeEnum: Enum JobTypeEnumCYB): Boolean'
+    parameters:
+    - id: srceProj
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: newProj
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: srceJobTypeEnum
+      description: enum JobTypeEnumCYB.
+      parameterType:
+        internalReference: O:Enum::JobTypeEnumCYB
+        name: JobTypeEnumCYB
+        isExternal: false
+    - id: JobTypeEnum
+      description: enum JobTypeEnumCYB.
+      parameterType:
+        internalReference: O:Enum::JobTypeEnumCYB
+        name: JobTypeEnumCYB
+        isExternal: false
+    return:
+      description: Return variable ReturnValue of type Boolean.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: createJobPlanLine.
+  uid: M:PageExtension::JobCardExtCYB.createJobPlanLine(Code[20],Code[20],Enum::JobTypeEnumCYB,Enum::JobTypeEnumCYB):Boolean
+  name: createJobPlanLine
+- syntax:
+    content: 'procedure createJobTasks(srceProj: Code[20], newProj: Code[20]): Boolean'
+    parameters:
+    - id: srceProj
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: newProj
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    return:
+      description: Return variable ReturnValue of type Boolean.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: createJobTasks.
+  uid: M:PageExtension::JobCardExtCYB.createJobTasks(Code[20],Code[20]):Boolean
+  name: createJobTasks
+- syntax:
+    content: 'procedure createJob(Job: Record Job, newProj: Code[20], customerNo: Code[20], startDate: Date, endDate: Date, var NewJobRec: Record Job, JobTypeEnum: Enum JobTypeEnumCYB, JobCategoryEnum: Enum JobCategoryCYB, Description: Text[100]): Boolean'
+    parameters:
+    - id: Job
+      description: Record "Job".
+      parameterType:
+        name: Record Job
+        isExternal: true
+    - id: newProj
+      description: code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: customerNo
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: startDate
+      description: Date.
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: endDate
+      description: Date.
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: NewJobRec
+      description: VAR Record Job.
+      parameterType:
+        name: Record Job
+        isExternal: true
+    - id: JobTypeEnum
+      description: enum JobTypeEnumCYB.
+      parameterType:
+        internalReference: O:Enum::JobTypeEnumCYB
+        name: JobTypeEnumCYB
+        isExternal: false
+    - id: JobCategoryEnum
+      description: enum JobCategoryCYB.
+      parameterType:
+        internalReference: O:Enum::JobCategoryCYB
+        name: JobCategoryCYB
+        isExternal: false
+    - id: Description
+      description: Text[100].
+      parameterType:
+        name: Text[100]
+        isExternal: true
+    return:
+      description: Return value of type Boolean.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: createJob.
+  uid: M:PageExtension::JobCardExtCYB.createJob(Job,Code[20],Code[20],Date,Date,Job@,Enum::JobTypeEnumCYB,Enum::JobCategoryCYB,Text[100]):Boolean
+  name: createJob
+commentId: O:PageExtension::JobCardExtCYB
+summary: PageExtension JobCardPgExtCYB (ID 50303) extends Record Job Card.
+uid: O:PageExtension::JobCardExtCYB
+name: JobCardExtCYB

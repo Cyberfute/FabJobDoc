@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobPurchaseLineCYB
+alId: ID 50332
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Purchase Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::JobPurchaseLineCYB
+summary: TableExtension JobPurchaseLine (ID 50332) extends Record Purchase Line.
+uid: O:TableExtension::JobPurchaseLineCYB
+name: JobPurchaseLineCYB

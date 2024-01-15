@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobBarCodeListCYB
+alId: ID 50338
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  internalReference: O:Table::FabBarreCodeCYB
+  name: FabBarreCodeCYB
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Liste Code Barre
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "50335"
+  promoted: true
+  xrefType:
+    internalReference: O:Table::FabBarreCodeCYB
+    name: FabBarreCodeCYB
+    isExternal: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+commentId: O:Page::JobBarCodeListCYB
+summary: Page JobBarCodeList (ID 50338).
+uid: O:Page::JobBarCodeListCYB
+name: JobBarCodeListCYB

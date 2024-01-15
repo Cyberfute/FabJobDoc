@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobItemTrackingCodeCardCYB
+alId: ID 50306
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Item Tracking Code Card"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::JobItemTrackingCodeCardCYB
+summary: PageExtension JobItemTrackingCodeCardCYB (ID 50306) extends Record Item Tracking Code Card.
+uid: O:PageExtension::JobItemTrackingCodeCardCYB
+name: JobItemTrackingCodeCardCYB

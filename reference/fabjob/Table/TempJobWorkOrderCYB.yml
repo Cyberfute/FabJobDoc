@@ -1,0 +1,130 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: TempJobWorkOrderCYB
+alId: ID 50333
+baseKind: Table
+kind: Table
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: DataClassification
+  value: ToBeClassified
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+- name: Caption
+  value: Job Work Order Temp
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.JobNo[20]
+  name: JobNo
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.JobTaskNo[20]
+  name: JobTaskNo
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.Description[100]
+  name: Description
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.Description2[100]
+  name: Description2
+- type:
+    name: Code[50]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.BarCodeNoCYB[50]
+  name: BarCodeNoCYB
+- type:
+    name: '"Job Planning Line Type"'
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.Type
+  name: Type
+- type:
+    name: Code[50]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.BarCodeNO[50]
+  name: BarCodeNO
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.GroupeRessource[20]
+  name: GroupeRessource
+- type:
+    name: Text[255]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.LineBarcode[255]
+  name: LineBarcode
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.LineNo
+  name: LineNo
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.IDKey
+  name: IDKey
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.Indentation
+  name: Indentation
+- type:
+    name: '"Job Task Type"'
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.JobTaskType
+  name: JobTaskType
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.JobTaskDescription[100]
+  name: JobTaskDescription
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.GroupNo
+  name: GroupNo
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::TempJobWorkOrderCYB.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::TempJobWorkOrderCYB
+summary: Table JobWorkOrderTempCYB (ID 50333).
+uid: O:Table::TempJobWorkOrderCYB
+name: TempJobWorkOrderCYB

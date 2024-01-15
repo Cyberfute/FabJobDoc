@@ -1,0 +1,10 @@
+﻿{
+  "Modules": [
+    {
+      "AppId": "ff8e9d98-c142-4832-90a0-7a43a2c4f0ec",
+      "Name": "FabJob",
+      "Publisher": "Cyberfuté",
+      "Version": "2.2.0.2"
+    }
+  ]
+}

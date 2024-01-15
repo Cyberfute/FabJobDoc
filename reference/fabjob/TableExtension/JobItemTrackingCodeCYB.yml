@@ -1,0 +1,28 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobItemTrackingCodeCYB
+alId: ID 50300
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Item Tracking Code"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::JobItemTrackingCodeCYB.Create_Blocked_Lot_InfoCYB
+  name: '"Create Blocked Lot InfoCYB"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::JobItemTrackingCodeCYB.Allow_Blocked_Lot_In_Purch#CYB
+  name: '"Allow Blocked Lot In Purch.CYB"'
+commentId: O:TableExtension::JobItemTrackingCodeCYB
+summary: TableExtension JobItemTrackingCodeCYB (ID 50300) extends Record Item Tracking Code.
+uid: O:TableExtension::JobItemTrackingCodeCYB
+name: JobItemTrackingCodeCYB

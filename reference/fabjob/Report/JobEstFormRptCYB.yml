@@ -1,0 +1,54 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEstFormRptCYB
+alId: ID 50315
+baseKind: Report
+kind: Report
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Impression Formulaire Estimé
+  promoted: false
+- name: UsageCategory
+  value: Documents
+  promoted: false
+- name: RDLCLayout
+  value: src\RDLC\JobEstFormCYB.RDLC
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Impression Formulaire Estimé
+  promoted: false
+- name: UsageCategory
+  value: Documents
+  promoted: false
+- name: RDLCLayout
+  value: src\RDLC\JobEstFormCYB.RDLC
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure setup(_JobNoCode: Code[20])'
+    parameters:
+    - id: _JobNoCode
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  summary: >-
+    JobTaskDimension
+
+    setup.
+  uid: M:Report::JobEstFormRptCYB.setup(Code[20])
+  name: setup
+commentId: O:Report::JobEstFormRptCYB
+summary: Report JobEstFormCYB (ID 50315).
+uid: O:Report::JobEstFormRptCYB
+name: JobEstFormRptCYB

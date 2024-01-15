@@ -1,0 +1,34 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobPlngLnExtCYB
+alId: ID 50302
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Planning Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+methods:
+- syntax:
+    content: procedure InitBarode()
+  summary: InitBarode.
+  uid: M:TableExtension::JobPlngLnExtCYB.InitBarode
+  name: InitBarode
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::JobPlngLnExtCYB.CompleterCYB
+  name: CompleterCYB
+- type:
+    name: Code[50]
+    isExternal: true
+  uid: F:TableExtension::JobPlngLnExtCYB.BarCodeNoCYB[50]
+  name: BarCodeNoCYB
+commentId: O:TableExtension::JobPlngLnExtCYB
+summary: TableExtension JobTaskExtCYB (ID 50302) extends Record Job Planning Line.
+uid: O:TableExtension::JobPlngLnExtCYB
+name: JobPlngLnExtCYB

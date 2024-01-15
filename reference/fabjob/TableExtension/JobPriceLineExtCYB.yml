@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobPriceLineExtCYB
+alId: ID 50325
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Price List Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::JobPriceLineExtCYB
+summary: TableExtension JobPriceLineExtCYB (ID 50324) extends Record Price List Line.
+uid: O:TableExtension::JobPriceLineExtCYB
+name: JobPriceLineExtCYB

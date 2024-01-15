@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobTaskLnSFCyb
+alId: ID 50320
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Task Lines Subform"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::JobTaskLnSFCyb
+summary: PageExtension JobTaskLLnSFExt (ID 50320) extends Record Job Task Lines Subform.
+uid: O:PageExtension::JobTaskLnSFCyb
+name: JobTaskLnSFCyb

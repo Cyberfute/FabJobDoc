@@ -1,0 +1,243 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEstPostPlLnCYB
+alId: ID 50312
+baseKind: Table
+kind: Table
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Caption
+  value: Job Estime Report Ligne de Planification
+  promoted: false
+- name: DataClassification
+  value: ToBeClassified
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Estime[20]
+  name: Estime
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Projet[20]
+  name: Projet
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.ReportNo
+  name: ReportNo
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Line_No#
+  name: '"Line No."'
+- type:
+    name: '"Job Planning Line Type"'
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Type
+  name: Type
+- type:
+    name: '"Job Planning Line Type"'
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Type_Old
+  name: '"Type Old"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Planning_Date
+  name: '"Planning Date"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Planning_Date_Old
+  name: '"Planning Date Old"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Planning_Due_Date
+  name: '"Planning Due Date"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Planning_Due_Date_Old
+  name: '"Planning Due Date Old"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.No#[20]
+  name: '"No."'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.No#_Old[20]
+  name: '"No. Old"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Description[100]
+  name: Description
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Description_Old[100]
+  name: '"Description Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Quantity
+  name: Quantity
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Quantity_Old
+  name: '"Quantity Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Cost
+  name: '"Unit Cost"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Cost_Old
+  name: '"Unit Cost Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Cost
+  name: '"Total Cost"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Cost_Old
+  name: '"Total Cost Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Price
+  name: '"Unit Price"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Price_Old
+  name: '"Unit Price Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Price
+  name: '"Total Price"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Price_Old
+  name: '"Total Price Old"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_of_Measure_Code[10]
+  name: '"Unit of Measure Code"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_of_Measure_Code_Old[10]
+  name: '"Unit of Measure Code Old"'
+- type:
+    internalReference: O:Enum::JobEstPostLineTypeCYB
+    name: JobEstPostLineTypeCYB
+    isExternal: false
+  uid: F:Table::JobEstPostPlLnCYB.PostLineType
+  name: PostLineType
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Job_Task_No#[20]
+  name: '"Job Task No."'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Cost_(LCY)
+  name: '"Unit Cost (LCY)"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Cost_(LCY)_Old
+  name: '"Unit Cost (LCY) Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Cost_(LCY)
+  name: '"Total Cost (LCY)"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Cost_(LCY)_Old
+  name: '"Total Cost (LCY) Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Price_(LCY)
+  name: '"Unit Price (LCY)"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Unit_Price_(LCY)_Old
+  name: '"Unit Price (LCY) Old"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Price_(LCY)
+  name: '"Total Price (LCY)"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Total_Price_(LCY)_Old
+  name: '"Total Price (LCY) Old"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Location_Code[10]
+  name: '"Location Code"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.Location_Code_Old[10]
+  name: '"Location Code Old"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::JobEstPostPlLnCYB.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::JobEstPostPlLnCYB
+summary: Table JobEstPostPlanLineCYB (ID 50312).
+uid: O:Table::JobEstPostPlLnCYB
+name: JobEstPostPlLnCYB

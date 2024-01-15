@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobCardEstimFactBoxCYB
+alId: ID 50307
+baseKind: Page
+kind: Page
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Job
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Editable
+  value: "False"
+  promoted: false
+- name: LinksAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: CardPart
+  promoted: true
+- name: SourceTable
+  value: "167"
+  promoted: true
+  xrefType:
+    name: Job
+    isExternal: true
+methods:
+- syntax:
+    content: procedure CalcTotals()
+  summary: CalcTotals.
+  uid: M:Page::JobCardEstimFactBoxCYB.CalcTotals
+  name: CalcTotals
+- syntax:
+    content: procedure CalcTotalSales()
+  summary: CalcTotalSales.
+  uid: M:Page::JobCardEstimFactBoxCYB.CalcTotalSales
+  name: CalcTotalSales
+commentId: O:Page::JobCardEstimFactBoxCYB
+summary: Page JobCardEstimFactBox (ID 50307).
+uid: O:Page::JobCardEstimFactBoxCYB
+name: JobCardEstimFactBoxCYB

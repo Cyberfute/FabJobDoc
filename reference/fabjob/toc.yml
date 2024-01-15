@@ -1,0 +1,127 @@
+﻿items:
+- name: Overview
+  uid: N:Module::FabJob
+- name: Reference
+  items:
+  - name: Tables
+    items:
+    - name: FabBarreCodeCYB
+      uid: O:Table::FabBarreCodeCYB
+    - name: FabspecJobSetupCYB
+      uid: O:Table::FabspecJobSetupCYB
+    - name: JobEstPostCYB
+      uid: O:Table::JobEstPostCYB
+    - name: JobEstPostPlLnCYB
+      uid: O:Table::JobEstPostPlLnCYB
+    - name: JobMatReqTmpCYB
+      uid: O:Table::JobMatReqTmpCYB
+    - name: JobTaskLineTypeReportCYB
+      uid: O:Table::JobTaskLineTypeReportCYB
+    - name: TempJobWorkOrderCYB
+      uid: O:Table::TempJobWorkOrderCYB
+  - name: Codeunits
+    items:
+    - name: JobEventSubscribersCYB
+      uid: O:Codeunit::JobEventSubscribersCYB
+    - name: JobLotEventSubscribersCYB
+      uid: O:Codeunit::JobLotEventSubscribersCYB
+    - name: JobUpgradeBarcodePlanLinesCYB
+      uid: O:Codeunit::JobUpgradeBarcodePlanLinesCYB
+  - name: Pages
+    items:
+    - name: JobBarCodeListCYB
+      uid: O:Page::JobBarCodeListCYB
+    - name: JobCardEstimFactBoxCYB
+      uid: O:Page::JobCardEstimFactBoxCYB
+    - name: JobCardEstimPlanLineCpyCYB
+      uid: O:Page::JobCardEstimPlanLineCpyCYB
+    - name: JobCardPlanLnSelCYB
+      uid: O:Page::JobCardPlanLnSelCYB
+    - name: JobCreateNewDlgCYB
+      uid: O:Page::JobCreateNewDlgCYB
+    - name: JobEstPostDetailsListCYB
+      uid: O:Page::JobEstPostDetailsListCYB
+    - name: JobEstPostingCardCYB
+      uid: O:Page::JobEstPostingCardCYB
+    - name: JobEstPostingListCYB
+      uid: O:Page::JobEstPostingListCYB
+    - name: JobMatReqCYB
+      uid: O:Page::JobMatReqCYB
+    - name: JobPlanLinesQuickCYB
+      uid: O:Page::JobPlanLinesQuickCYB
+    - name: JobPostEstimDlgCYB
+      uid: O:Page::JobPostEstimDlgCYB
+    - name: JobTaskLineTypeCYB
+      uid: O:Page::JobTaskLineTypeCYB
+  - name: Reports
+    items:
+    - name: JobEstFormRptCYB
+      uid: O:Report::JobEstFormRptCYB
+    - name: JobWorkOrderRptCYB
+      uid: O:Report::JobWorkOrderRptCYB
+    - name: JobWorkOrderRptGroupeCYB
+      uid: O:Report::JobWorkOrderRptGroupeCYB
+  - name: Queries
+    items:
+    - name: JobEstFormQryCYB
+      uid: O:Query::JobEstFormQryCYB
+    - name: JobWorkOrderQryCYB
+      uid: O:Query::JobWorkOrderQryCYB
+  - name: PageExtensions
+    items:
+    - name: JobCardExtCYB
+      uid: O:PageExtension::JobCardExtCYB
+    - name: JobItemListCYB
+      uid: O:PageExtension::JobItemListCYB
+    - name: JobItemTrackingCodeCardCYB
+      uid: O:PageExtension::JobItemTrackingCodeCardCYB
+    - name: JobListExtCYB
+      uid: O:PageExtension::JobListExtCYB
+    - name: JobPlanningLineExtCYB
+      uid: O:PageExtension::JobPlanningLineExtCYB
+    - name: JobPurchaseQuoteCYB
+      uid: O:PageExtension::JobPurchaseQuoteCYB
+    - name: JobsSetupCardEtxCYB
+      uid: O:PageExtension::JobsSetupCardEtxCYB
+    - name: JobTaskLnSFCyb
+      uid: O:PageExtension::JobTaskLnSFCyb
+  - name: TableExtensions
+    items:
+    - name: JobCardTbExtCYB
+      uid: O:TableExtension::JobCardTbExtCYB
+    - name: JobItemTrackingCodeCYB
+      uid: O:TableExtension::JobItemTrackingCodeCYB
+    - name: JobJrnlLnExtCYB
+      uid: O:TableExtension::JobJrnlLnExtCYB
+    - name: JobLotNoInfoExtCYB
+      uid: O:TableExtension::JobLotNoInfoExtCYB
+    - name: JobPlngLnExtCYB
+      uid: O:TableExtension::JobPlngLnExtCYB
+    - name: JobPriceLineExtCYB
+      uid: O:TableExtension::JobPriceLineExtCYB
+    - name: JobPurchaseLineCYB
+      uid: O:TableExtension::JobPurchaseLineCYB
+    - name: JobsSetupExtCYB
+      uid: O:TableExtension::JobsSetupExtCYB
+    - name: JobTaskDimensionCYB
+      uid: O:TableExtension::JobTaskDimensionCYB
+    - name: JobTaskExtCYB
+      uid: O:TableExtension::JobTaskExtCYB
+  - name: Enums
+    items:
+    - name: JobCategoryCYB
+      uid: O:Enum::JobCategoryCYB
+    - name: JobEstPostLineTypeCYB
+      uid: O:Enum::JobEstPostLineTypeCYB
+    - name: JobModuleCYB
+      uid: O:Enum::JobModuleCYB
+    - name: JobTypeEnumCYB
+      uid: O:Enum::JobTypeEnumCYB
+  - name: PermissionSets
+    items:
+    - name: GeneratedPermission
+      uid: O:PermissionSet::GeneratedPermission
+- name: Obsoleted
+  items:
+  - name: '[Untagged]'
+    uid: N:Module::FabJob_obsolete_by_[Untagged]

@@ -1,0 +1,25 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobEstPostLineTypeCYB
+alId: ID 50312
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::JobEstPostLineTypeCYB.Original
+  name: Original
+- uid: E:Enum::JobEstPostLineTypeCYB.Changement
+  name: Changement
+- uid: E:Enum::JobEstPostLineTypeCYB.Ajout
+  name: Ajout
+commentId: O:Enum::JobEstPostLineTypeCYB
+summary: Enum JobEstPostLineTypeCYB (ID 50312).
+uid: O:Enum::JobEstPostLineTypeCYB
+name: JobEstPostLineTypeCYB

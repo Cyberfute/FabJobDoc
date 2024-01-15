@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobPurchaseQuoteCYB
+alId: ID 50317
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Purchase Quote"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::JobPurchaseQuoteCYB
+summary: PageExtension JobPurchaseQuoteCYB (ID 50317) extends Record Purchase Quote.
+uid: O:PageExtension::JobPurchaseQuoteCYB
+name: JobPurchaseQuoteCYB

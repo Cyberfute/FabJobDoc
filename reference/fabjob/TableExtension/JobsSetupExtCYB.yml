@@ -1,0 +1,28 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: JobsSetupExtCYB
+alId: ID 50324
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::FabJob::Namespace::'
+langs:
+- al
+extends:
+  name: '"Jobs Setup"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:TableExtension::JobsSetupExtCYB.MargeProfitCYB
+  name: MargeProfitCYB
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::JobsSetupExtCYB.BarCodes_NoCYB[20]
+  name: '"BarCodes NoCYB"'
+commentId: O:TableExtension::JobsSetupExtCYB
+summary: TableExtension JobsSetupExtCYB (ID 50324) extends Record Jobs Setup.
+uid: O:TableExtension::JobsSetupExtCYB
+name: JobsSetupExtCYB
